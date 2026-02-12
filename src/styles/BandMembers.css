@@ -1,0 +1,15 @@
+
+
+.wide-image-section {
+  width: 100%;
+  background: #ffffff;
+}
+
+.wide-image-section img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+
+

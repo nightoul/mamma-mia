@@ -1,0 +1,63 @@
+
+.topbar {
+  background: #f3f4f6;              /* very soft grey */
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282828;
+}
+
+/* Left side */
+
+.topbar-left {
+  display: flex;
+  gap: 14px;
+}
+
+.topbar-left a {
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease;
+}
+
+.topbar-left a:hover {
+  color: #374151;
+}
+
+/* Right side */
+
+.topbar-right {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.topbar-right span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+/* Icons */
+
+.topbar svg {
+  color: #282828;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .topbar {
+    padding: 8px 20px;
+  }
+
+  .topbar-right {
+    display: none;
+  }
+}

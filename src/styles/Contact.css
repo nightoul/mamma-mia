@@ -1,0 +1,45 @@
+.contact-section {
+  background: #f3f4f6;
+  padding: 120px 0;
+}
+
+.contact-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Title */
+.contact-inner h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #1e4e9a; /* deep blue */
+  margin-bottom: 40px;
+}
+
+/* Social links */
+.contact-social {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.contact-social a {
+  color: #1e4e9a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-social a:hover {
+  text-decoration: underline;
+}
+
+/* Contact block */
+.contact-info {
+  font-size: 22px;
+  color: #333;
+  line-height: 1.8;
+}
+
+.contact-info strong {
+  font-weight: 600;
+}
