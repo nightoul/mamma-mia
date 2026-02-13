@@ -5,12 +5,12 @@ export default function TopBar() {
   return (
     <header className="topbar">
       <div className="topbar-left">
-        <a href="#">
+        {/* <a href="#">
           <Facebook size={16} />
         </a>
         <a href="#">
           <Instagram size={16} />
-        </a>
+        </a> */}
       </div>
 
       <div className="topbar-right">
