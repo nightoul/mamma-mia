@@ -5,10 +5,10 @@ export default function Gallery() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const galleryImages = [
-    "/images/one.webp",
-    "/images/two.webp",
-    "/images/three.webp",
-    "/images/four.webp",
+    "images/one.webp",
+    "images/two.webp",
+    "images/three.webp",
+    "images/four.webp",
   ];
 
   const openLightbox = (index: number) => {
