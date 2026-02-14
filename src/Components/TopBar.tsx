@@ -1,5 +1,5 @@
 import "../styles/TopBar.css";
-import { Facebook, Instagram, Mail, Phone, Info } from "lucide-react";
+import { Mail, Phone, Info } from "lucide-react";
 
 export default function TopBar() {
   return (
